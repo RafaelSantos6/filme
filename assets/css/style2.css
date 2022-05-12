@@ -1,0 +1,59 @@
+img{
+    max-width: 500px;
+        background-color: rgb(253, 253, 253);
+		-webkit-box-shadow: 9px 7px 5px red;
+		-moz-box-shadow:    9px 7px 5px red;
+		box-shadow:         9px 7px 5px red;
+}
+
+.centro {
+    text-align: center;
+}
+
+body{
+    background-color: black;
+    font-family: impact,fantasy;
+}
+h1{
+    background-color: white;
+    -webkit-box-shadow: 9px 7px 5px red;
+    -moz-box-shadow:    9px 7px 5px red;
+    box-shadow:         9px 7px 5px red;
+}
+.canto{
+    text-align: end;
+}
+.comeco{
+    text-align: left;
+}
+
+.filme{
+    display: flex;
+    flex-direction: row ;
+    align-items: end ;
+    justify-content:space-around 1px;
+}
+.carrossel {
+    margin-top: 60px;
+}
+
+.carrossel img {
+    width: 1280px;
+    height: auto;
+}
+
+.carrossel .img {
+    display: none;
+}
+
+.carrossel .img:target {
+    display: block;
+}
+
+.carrossel .b1 {
+    position: relative;
+}
+
+.carrossel .b2 {
+    position: relative;
+}
