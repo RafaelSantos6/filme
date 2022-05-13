@@ -8,7 +8,6 @@
   body{
     margin:10px;
     background-color: black;
-
   }
   
   a{
@@ -24,9 +23,7 @@
   .content{
     width: 500px;
     margin: 0px auto;
-    position: relative;
-    background-color: white;
-
+    position: relative; 
   }
   
   /* formatando o cabeçalho dos formulários */
@@ -56,7 +53,7 @@
     margin: 0px;
   }
   label{
-    color: white;
+    color: #405c60;
     position: relative;
   }
   
@@ -101,7 +98,7 @@
     font-size: 20px;  
     border: 1px solid #fff; 
     margin-bottom: 10px;  
-    text-shadow: 0 1px 1px white;
+    text-shadow: 0 1px 1px #333;
     
     -webkit-border-radius: 5px;
     border-radius: 5px;
@@ -115,7 +112,7 @@
   /*marcando os links para mudar de um formulário para outro */
   .link{
     position: absolute;
-    background: #e1eaeb;
+    background: black;
     color: #7f7c7c;
     left: 0px;
     height: 20px;
@@ -132,7 +129,7 @@
     font-weight: bold;
     background: #f7f8f1;
     padding: 6px;
-    color: white;
+    color: rgb(29, 162, 193);
     margin-left: 10px;
     border: 1px solid #cbd518;
   
@@ -144,7 +141,7 @@
   }
   .link a:hover {
     color: #39bfd7;
-    background:white;
+    background: black;
     border: 1px solid #4ab3c6;
   }
   
@@ -158,14 +155,17 @@
     margin: 0 0 35px 0;
     background: black;
     border: 1px solid rgba(147, 184, 189,0.8);
-    
-    -webkit-box-shadow: 5px red;
-    border-radius: 5px;
-
     -webkit-box-shadow: 9px 7px 5px red;
     -moz-box-shadow:    9px 7px 5px red;
     box-shadow:         9px 7px 5px red;
-}
+
+    
+    -webkit-box-shadow: 5px;
+    border-radius: 5px;
+    
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
   
     animation-duration: 0.5s;
     animation-timing-function: ease;
